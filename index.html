@@ -5,16 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
-  <script src="https://kit.fontawesome.com/fcde28876e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/fcde28876e.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
-  <header>
-    <nav>
-      
-    </nav>
-  </header>
+<body class="bg-cover bg-center  w-full ">
+    <header class="max-w-[1440px] mx-auto w-[300] items-center bg-gray-400 to gray-200" >
+        <nav class="flex justify-around align-middle  lg:border-hidden items-center border-b-2  border-orange-500">
+             <div class="flex justify-center h-15 w-15">
+                <img class="  justify-start border-8 border-blue-400 rounded-full h-15 w-15" src="img/My img.jpg" alt="">
+
+                <div class="flex items-center pl-4">
+                    <h1 class="flex lg:block text-xl  justify-center "> MD</h1>
+                    <h1 class="flex lg:block text-xl  justify-center "> Fazla</h1>
+                    <h1 class="flex lg:block text-xl  justify-center "> Rabbi</h1>
+                </div>
+                
+
+             </div>
+             
+            <div class="lg:flex hidden  lg:block sm:block">
+              <div>
+                <ul class="lg:flex gap-5 hidden lg:justify-between">
+                    <div class="lg:flex gap-5 hidden lg:justify-between">
+                        <li class="text-orange-400 ">About</li>
+                        <li class="text-sky-400">Education</li>
+                        <li class="text-cyan-400">Skills</li>
+                        <li class="text-blue-500">Projects</li>
+                        <li class="text-blue-500">Achievements</li>
+                        <li class="text-blue-500">Contact</li>
+                    </div>
+        
+                    
+                </ul>
+            </div>
+                 <div class="pl-6">
+                    <button class="bg-orange-400  hidden lg:block rounded-md w-28 h-8 text-white">
+                        Contact
+                    </button>
+                </div>
+            </div>
+                
+                <div class=" flex justify-center items-center lg:hidden mt-6 text-lg">
+                  
+                     
+                      <div class="dropdown  items-center dropdown-end ">
+                        <div tabindex="8  " role="button" class="fa-solid fa-bars flex justify-center
+                        pr-2"></div>
+                        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                          <li class="menu link1"><a>Home</a></li>
+                       <li class="menu link2"><a>About</a></li>
+                        <li class="menu link3"><a>Facilities</a></li>
+                         <li class="menu link4"><a>Admission</a></li>
+                          <li class="menu link5"><a>Achievements</a></li>
+                          <li class="menu link6"><a>Contact</a></li>
+                    </ul>
+                      </div>
+                       
+             </div>
+        </nav>
+    </header>
     
 </body>
 </html>
