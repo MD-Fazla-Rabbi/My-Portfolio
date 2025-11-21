@@ -10,16 +10,24 @@
 
 </head>
 <body class="bg-cover bg-center  w-full ">
-    <header class="max-w-[1440px] mx-auto w-[300] items-center bg-gray-400 to gray-200" >
-        <nav class="flex justify-around align-middle  lg:border-hidden items-center border-b-2  border-orange-500">
+   <!--- <header class="max-w-[1440px] mx-auto w-[300] items-center bg-gray-400 to gray-200" >
+        <nav class="flex justify-between pl-19 fit">
              <div class="flex justify-center h-15 w-15">
                 <img class="  justify-start border-8 border-blue-400 rounded-full h-15 w-15" src="img/My img.jpg" alt="">
-
-                <div class="flex items-center pl-4">
+                <div>
+                    <div class="flex items-center pl-4">
                     <h1 class="flex lg:block text-xl  justify-center "> MD</h1>
                     <h1 class="flex lg:block text-xl  justify-center "> Fazla</h1>
                     <h1 class="flex lg:block text-xl  justify-center "> Rabbi</h1>
+                    </div>
+                    <div class="flex">
+                        <p>Frontend: HTML, CSS,</p>
+                        <p>Javascript(ES6),</p>
+                        <p>TailwindCSS,</p>
+                        <p>   Bootstrap</p>
+                    </div>
                 </div>
+                
                 
 
              </div>
@@ -65,6 +73,132 @@
              </div>
         </nav>
     </header>
+-->
+    <!---
+    <header class="w-full bg-white bg-orange-400 shadow-sm px-4 py-3 flex items-center justify-between">
+  
+  
+  <div class="flex items-center bg-orange-400 gap-3">
+    <img src="img/My img.jpg" class="w-10 h-10 rounded-full object-cover" alt="Profile">
     
+    <div class="leading-tight">
+      <h2 class="text-sm font-semibold text-blue-600">MD FAZLA RABBI</h2>
+      <p class="text-[10px] text-gray-600">Frontend developer (HTML, CSS, Javascript (ES6), TailwindCSS, Bootstrap)</p>
+    </div>
+  </div>
+
+  
+    <div class=" flex justify-center items-center lg:hidden mt-6 text-lg">
+                  
+                     
+                      <div class="dropdown  items-center dropdown-end ">
+                        <div tabindex="8  " role="button" class="fa-solid fa-bars flex justify-center
+                        pr-2"></div>
+                        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                          <li class="menu link1"><a>Home</a></li>
+                       <li class="menu link2"><a>About</a></li>
+                        <li class="menu link3"><a>Facilities</a></li>
+                         <li class="menu link4"><a>Admission</a></li>
+                          <li class="menu link5"><a>Achievements</a></li>
+                          <li class="menu link6"><a>Contact</a></li>
+                    </ul>
+                      </div>
+                       
+             </div>
+
+</header>
+-->
+<header class="w-full bg-[#484A54] shadow hidden lg:block sm:block">
+  <div class="max-w-[1440px] mx-auto px-6 py-4 flex items-center justify-around">
+
+    <!-- Profile + Text -->
+    <div class="flex items-center gap-4">
+      <!-- Profile Image with Gradient Border -->
+      <div class="p-[3px] rounded-full bg-gradient-to-r from-purple-500 to-blue-500">
+        <img src="img/My img.jpg" 
+             alt="Profile"
+             class="w-14 h-14 rounded-full object-cover border-2 border-white" />
+      </div>
+
+      <!-- Name + Title -->
+      <div class="leading-tight">
+        <h2 class="text-xl font-extrabold bg-clip-text text-transparent
+                   bg-gradient-to-r from-blue-600 to-cyan-500">
+          MD FAZLA RABBI
+        </h2>
+        <p class="text-xs text-gray-300">
+          Frontend developer (HTML, CSS, Javascript (ES6), TailwindCSS, Bootstrap)
+        </p>
+      </div>
+    </div>
+
+    <!-- Menu Icon (Desktop) -->
+      <div class="lg:flex hidden  lg:block sm:block">
+              <div>
+                <ul class="lg:flex gap-5 hidden lg:justify-between">
+                    <div class="lg:flex items-center gap-5 hidden lg:justify-between">
+                        <li class="text-orange-400 text-bould ">About</li>
+                        <li class="text-sky-400">Education</li>
+                        <li class="text-cyan-400">Skills</li>
+                        <li class="text-blue-500">Projects</li>
+                        <li class="text-blue-500">Achievements</li>
+                        <li class="text-blue-500">Contact</li>
+                    </div>
+        
+                    <div>
+                    <button class="bg-blue-600 rounded-lg h-10 w-20">
+                        <b class="text-white">
+                            Resume
+                        </b>
+                        
+                    </button>
+                </div>
+                </ul>
+                
+                
+            </div>
+
+  </div>
+</header>
+
+
+
+
+  <header class="w-full bg-[#484A54] lg:hidden md:hidden px-4 py-3 flex items-center justify-between">
+  
+  <!-- Profile + Name -->
+  <div class="flex items-center gap-3 pr-2">
+    <div class="p-[2px]  rounded-full bg-gradient-to-r from-purple-500 to-blue-500">
+      <img src="img/My img.jpg" 
+           class="w-17 h-12 rounded-full object-cover border-2 border-[#484A54]" />
+    </div>
+
+    <div>
+      <h2 class="text-base font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-cyan-400">
+        MD FAZLA RABBI
+      </h2>
+      <p class="text-xs text-gray-300 leading-tight">
+        Frontend developer (HTML, CSS, Javascript (ES6), TailwindCSS, Bootstrap)
+      </p>
+    </div>
+  </div>
+
+  <!-- Hamburger Menu -->
+   <div class="dropdown  items-center dropdown-end h-7 w-7 ">
+                        <div tabindex="8  " role="button" class="fa-solid h- w- fa-bars flex justify-center pr-2"></div>
+                        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 p-2 shadow-sm">
+                          <li class="menu link1"><a>Home</a></li>
+                       <li class="menu link2"><a>About</a></li>
+                        <li class="menu link3"><a>Facilities</a></li>
+                         <li class="menu link4"><a>Admission</a></li>
+                          <li class="menu link5"><a>Achievements</a></li>
+                          <li class="menu link6"><a>Contact</a></li>
+                    </ul>
+                      </div>
+                       
+             </div>
+
+</header>
+  
 </body>
-</html>
+</html><section id="home" class="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 via-white to-blue-100 pt-20 overflow-hidden">
