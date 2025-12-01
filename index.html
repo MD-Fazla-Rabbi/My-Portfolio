@@ -108,7 +108,7 @@
 
 </header>
 -->
-<header class="w-full bg-[#484A54] shadow hidden lg:block sm:block">
+<header class="w-full bg-[#484A54] shadow hidden lg:block sm:block shadow fixed w-full top-0 z-50">
   <div class="max-w-[1440px] mx-auto px-6 py-4 flex items-center justify-around">
 
     <!-- Profile + Text -->
@@ -235,10 +235,101 @@
             </div>
         </div>
     </section>
-    <section><h1 class="text-5xl md:text-6xl font-extrabold mt-8 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent drop-shadow-lg">Mohammad Al Amin</h1>
+    <section>
+      
+      <!-- PROJECTS SECTION -->
+
+
+  <section id="projects" class="max-w-6xl mx-auto px-6 py-16 bg-white rounded-lg shadow">
+    <h2 class="text-3xl font-bold mb-10 border-l-4 border-blue-600 pl-3">Projects</h2>
+
+    <div class="grid grid-cols-1 b sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Project Card -->
+      <div class="bg-gray-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="font-bold text-xl mb-2">Project 1</h3>
+        <p class="text-sm mb-3">Short description of your project.</p>
+        <a href="#" class="text-blue-600 underline text-sm">View Code</a>
+      </div>
+
+      <div class="bg-gray-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="font-bold text-xl mb-2">Project 2</h3>
+        <p class="text-sm mb-3">Short description of your project.</p>
+        <a href="#" class="text-blue-600 underline text-sm">View Code</a>
+      </div>
+
+      <div class="bg-gray-50 p-4 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="font-bold text-xl mb-2">Project 3</h3>
+        <p class="text-sm mb-3">Short description of your project.</p>
+        <a href="#" class="text-blue-600 underline text-sm">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-6 border-l-4 border-blue-600 pl-3">Contact</h2>
+    <p class="text-lg mb-3">📧 Email: <span class="font-medium">yourmail@gmail.com</span></p>
+    <p class="text-lg mb-3">🌐 GitHub: <a href="#" class="text-blue-600 underline">Your GitHub Link</a></p>
+    <p class="text-lg">🔗 LinkedIn: <a href="#" class="text-blue-600 underline">Your LinkedIn Link</a></p>
+  </section>
+      <h1 class="text-5xl md:text-6xl font-extrabold mt-8 bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent drop-shadow-lg">Mohammad Al Amin</h1>
 <!--<section class="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 via-white to-blue-100 pt-20 overflow-hidden">-->
     </section>
 </main>
-  <div class="px-4 py-4 flex flex-col gap-4 text-sm font-semibold bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-lg rounded-b-2xl"></div>
+  <!-- <div class="px-4 py-4 flex flex-col gap-4 text-sm font-semibold bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-lg rounded-b-2xl"></div>
+<div class="mt-10 flex flex-wrap justify-center gap-5">…</div> -->
+<script src="./main.js"></script>
 </body>
-</html><div class="mt-10 flex flex-wrap justify-center gap-5">…</div>
+</html> --
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Your Name</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+  <!-- NAVBAR -->
+  <header class="bg-white ">
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">YourName</h1>
+      <ul class="hidden md:flex space-x-6 font-medium">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-6 max-w-6xl mx-auto px-6 pt-28">
+    <div>
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-4">Hi, I'm <span class="text-blue-600">Your Name</span></h2>
+      <p class="text-lg md:text-xl mb-6">Frontend Web Developer • HTML • CSS • JavaScript • React (Learning)</p>
+      <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium">See My Work</a>
+    </div>
+    <img src="https://via.placeholder.com/250" class="w-40 md:w-60 rounded-full shadow-lg" alt="profile"/>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-6 border-l-4 border-blue-600 pl-3">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      I am an enthusiastic Frontend Developer skilled in HTML, CSS, and JavaScript.
+      Currently exploring React to create dynamic user experiences.
+      I enjoy building responsive and clean websites while continuously learning new modern technologies.
+    </p>
+  </section>
+
+  
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 bg-gray-200 mt-10">
+    <p class="text-sm">© 2025 Your Name — All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
